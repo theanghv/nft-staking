@@ -7,7 +7,7 @@ import "@openzeppelin/contracts/token/ERC20/ERC20.sol";
 import "@openzeppelin/contracts/token/ERC20/extensions/ERC20Burnable.sol";
 import "@openzeppelin/contracts/token/ERC20/IERC20.sol";
 
-contract N2DRewards is ERC20, ERC20Burnable, Ownable {
+contract RewardToken is ERC20, ERC20Burnable, Ownable {
 
   // address(s) that are allowed to interact with the reward token (Staking Contract)
   mapping(address => bool) controllers;
